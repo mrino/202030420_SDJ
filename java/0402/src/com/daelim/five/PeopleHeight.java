@@ -1,6 +1,6 @@
 package com.daelim.five;
 
-public class PeopleHeight {
+public class PeopleHeight{
 
     private int Hegiht;
 
@@ -16,6 +16,7 @@ public class PeopleHeight {
 
     public void getHeight()
     {
-        System.out.println(Hegiht+"cm 입니다.");
+        System.out.println("키는 "+Hegiht+"cm 입니다.");
+
     }
 }
