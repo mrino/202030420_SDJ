@@ -1,0 +1,32 @@
+.heading {
+    font-size: 24px;
+    color: #f00;             /*#FF0000*/
+    font-weight: normal;       /*fw*/
+    font-style: italic;        /*fs*/
+    border: 1px solid #000; /*bd*/
+    background: #589;       /*bg*/
+    background-color: #fff; /*bc*/
+    text-align: center;         /*ta:c*/
+    float: left;                /*fl:l*/
+    width: 100px;
+}
+
+div {
+    border: 1px solid #f00;
+}
+
+/* 하위 선택자:모든 태그에 */
+div p {
+    color: purple;
+}
+/* 자식 선택자:바로 밑에 있는 태그에만 */
+div > p{
+    color: purple;
+}
+
+div > p:nth-child(2){
+    border: 1px solid #000;
+    color: #589;
+}
+
+
