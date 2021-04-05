@@ -1,5 +1,43 @@
 *{
     margin: 0;
     padding: 0;
+}
+
+h1{
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 23%;
+}
+
+ul{
+    border: 1px solid red;
+    list-style: none;
+    overflow: hidden;
+}
+
+li {
+    font-size: 24px;
+    border: 1px solid #333;
+    float: left;
+}
+
+#li1{
+    margin: 20px;
+}
+
+#li2{
+    padding: 20px;
+}
+
+#li3{
+    margin: 10px 5px 0px 30px;
     
 }
+
+#li4{
+    padding: 10px 5px 0px 30px;
+}
+
