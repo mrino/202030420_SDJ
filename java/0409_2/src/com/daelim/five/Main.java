@@ -6,8 +6,8 @@ public class Main {
 	// write your code here
         try{
             System.out.println("test");
-            Exception e = new Exception();
-            throw e;
+
+            System.out.println("dd");
 
         }catch (Exception e) {
             System.out.println("ddd");

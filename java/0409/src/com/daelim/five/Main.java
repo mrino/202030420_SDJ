@@ -5,21 +5,16 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here]
-        Circle c = new Circle();
-        c.draw();
-        Square sq = new Square();
-        sq.draw();
-        Triangle t = new Triangle();
-        t.draw();
+	Circle c = null;
+	    try {
+	        int a  = 1/0;
+           c.draw();
 
-
-
-
-
-
-
-
+        } catch (Exception e){
+            System.out.println("Excption 발생"+e.getMessage());
+        } finally {
+            System.out.println("종료됨");
+        }
 
     }
 }
