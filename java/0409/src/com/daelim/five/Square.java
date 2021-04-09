@@ -1,8 +1,8 @@
 package com.daelim.five;
 
 public class Square extends Shape{
-    public Square()
+    public void draw()
     {
-        System.out.printf("사각형을 ");
+        System.out.println("사각형을 그리다");
     }
 }

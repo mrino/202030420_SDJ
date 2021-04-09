@@ -1,5 +1,7 @@
 package com.daelim.five;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -10,7 +12,12 @@ public class Main {
         sq.draw();
         Triangle t = new Triangle();
         t.draw();
-        
+
+
+
+
+
+
 
 
 

@@ -1,8 +1,10 @@
 package com.daelim.five;
 
 public class Triangle extends Shape{
-    public Triangle()
+
+    public void draw()
     {
-        System.out.printf("삼각형 ");
+        System.out.println("삼각형을 그리다 ");
+
     }
 }

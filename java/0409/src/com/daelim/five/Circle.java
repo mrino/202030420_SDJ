@@ -1,8 +1,8 @@
 package com.daelim.five;
 
 public class Circle extends Shape{
-    public Circle()
+    public void draw()
     {
-        System.out.printf("원을 ");
+        System.out.println("원을 그리다");
     }
 }
