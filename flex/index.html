@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>flex</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        header{
+            background-color: cyan;
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 15px;
+            align-items: center;
+        }
+        ul{
+            display: flex;
+        }
+        li{
+            margin-left: 15px;
+            
+        }
+        .hidden{
+            border: 1px solid #000;
+            display: none;
+        }
+        .hidden:hover{
+            display: contents;
+        }
+        
+        
+    
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Logo</h1>
+        <ul>
+            <li>메일</li>
+            <li>카페</li>
+            <li>블로그</li>
+            <li>지식인</li>
+        </ul>
+    </header>
+</body>
+</html>
