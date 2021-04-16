@@ -1,6 +1,13 @@
 
+
 h1{
     color: red;
+}
+ul{
+    border: 1px solid red;
+    li{
+        color: red;
+    }
 }
 //scss -> css compile
 //컴파일러 필요 node - npm
