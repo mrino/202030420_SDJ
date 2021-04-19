@@ -9,20 +9,20 @@ public class Main {
         ani = new ArrayList<>();
 
         Wolf wolf = new Wolf();
-        Animai aninam1 = (Animai)wolf;
-        ani.add(aninam1);
+        Animai aninam = (Animai)wolf;
+        ani.add(aninam);
 
         Bear bear = new Bear();
-        Animai aninam2 = (Animai)bear;
-        ani.add(aninam2);
+        aninam = (Animai)bear;
+        ani.add(aninam);
 
         Rabbit rabbit = new Rabbit();
-        Animai aninam3 = (Animai)rabbit;
-        ani.add(aninam3);
+        aninam = (Animai)rabbit;
+        ani.add(aninam);
 
         Cow cow= new Cow();
-        Animai aninam4 = (Animai)cow;
-        ani.add(aninam4);
+        aninam = (Animai)cow;
+        ani.add(aninam);
 
 
         for(int i = 0; i< ani.size();i++)

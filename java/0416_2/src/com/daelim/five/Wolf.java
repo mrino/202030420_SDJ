@@ -3,6 +3,7 @@ package com.daelim.five;
 public class Wolf extends Animai{
 
     public String Aniname;
+
     @Override
     public void eat() {
         System.out.print("늑대는 고기를 먹습니다. ");
